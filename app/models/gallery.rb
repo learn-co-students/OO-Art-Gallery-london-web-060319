@@ -27,7 +27,7 @@ class Gallery
   end
 
   def most_expensive_painting
-    paintings.map {|painting| painting.price}.max
+    paintings.detect {|painting| painting.price}.max
   end
 
 end
