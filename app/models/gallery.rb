@@ -27,7 +27,7 @@ class Gallery
   end
 
   def most_expensive_painting
-    paintings.detect {|painting| painting.price}.max
+    paintings.max_by {|painting| painting.price}
   end
 
 end
