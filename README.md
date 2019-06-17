@@ -59,7 +59,7 @@ An artist can, of course, have many paintings. Paintings can only be in one gall
 
   * `Gallery.all`
     * Returns an `array` of all the galleries
-
+    
   * `Gallery#paintings`
     * Returns an `array` of all paintings in a gallery
 
